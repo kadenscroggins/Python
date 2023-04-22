@@ -1,0 +1,6 @@
+requests
+oracledb
+pyad
+pywin32
+pymssql
+subprocess
