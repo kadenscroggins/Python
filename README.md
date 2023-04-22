@@ -7,7 +7,7 @@ A collection of Python scripts I've written.
 
 ---
 
-### [separation-automation](https://github.com/kadenscroggins/Python/tree/main/separation-automation) - A large project that partially automates employee terminations in multiple systems
+### [separation-automation](https://github.com/kadenscroggins/Python/tree/main/separation-automation) - A mostly solo project which I was the primary developer of, that partially automates employee terminations in multiple systems
 * [separation_automation.py](https://github.com/kadenscroggins/Python/blob/main/separation-automation/separation_automation.py) - Main file that orchestrates everything
 * [ad_functions.py](https://github.com/kadenscroggins/Python/blob/main/separation-automation/ad_functions.py) - Functions for interfacing with Microsoft Active Directory
 * [google_functions.py](https://github.com/kadenscroggins/Python/blob/main/separation-automation/google_functions.py) - Functions for interfacing with the Google API via the [GAM](https://github.com/GAM-team/GAM) utility
