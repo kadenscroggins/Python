@@ -24,3 +24,12 @@ I could talk a lot about this code, as I spent dozens of hours on it. A lot of t
 5. Comment steps taken in our ticketing system and advance ticket workflow so that separation tickets take significantly less time
 
 ---
+
+### [user-creation-utils](https://github.com/kadenscroggins/Python/tree/main/user-creation-utils) - A complete re-write of my institution's user provisioning process from scratch that I did on my own. During an incident response, the old server that did this process had to be decomissioned, and none of the code on it was salvageable, so I had to modernize it.
+* [create_users.py](https://github.com/kadenscroggins/Python/blob/main/user-creation-utils/create_users.py) - Functions for creating users in Active Directory
+* [generate_userid.py](https://github.com/kadenscroggins/Python/blob/main/user-creation-utils/generate_userid.py) - Functions for generating unique usernames for Active Directory
+* [main.py](https://github.com/kadenscroggins/Python/blob/main/user-creation-utils/main.py) - Main script to orchestrate other functions together for user provisioning
+* [main_auto.py](https://github.com/kadenscroggins/Python/blob/main/user-creation-utils/main_auto.py) - A hands-off version of main.py that can be ran without input
+* [send_email.py](https://github.com/kadenscroggins/Python/blob/main/user-creation-utils/send_email.py) - Functions for sending emails via an email server
+
+  As with other scripts, a lot of systems have been renamed, and information has been redacted so as to not expose any sensitive information. I also did not include any of the SQL scripts or email templates, as some of the information in those could be considered proprietary.
