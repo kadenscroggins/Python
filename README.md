@@ -33,3 +33,7 @@ I could talk a lot about this code, as I spent dozens of hours on it. A lot of t
 * [send_email.py](https://github.com/kadenscroggins/Python/blob/main/user-creation-utils/send_email.py) - Functions for sending emails via an email server
 
   As with other scripts, a lot of systems have been renamed, and information has been redacted so as to not expose any sensitive information. I also did not include any of the SQL scripts or email templates, as some of the information in those could be considered proprietary.
+
+---
+
+### [zoom_license_remover.py](https://github.com/kadenscroggins/Python/blob/main/zoom_license_remover.py) - A script that automatically removes Zoom licenses for users who are no longer elibile for them based on a query output. Uses Zoom groups as an allowlist, so anyone in any group keeps their license.
